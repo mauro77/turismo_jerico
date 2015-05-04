@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mauriciohincapie.myapplication" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/estilo2" >
+        <activity
+            android:name=".Portada"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".about"
+            android:label="@string/about" >
+
+        </activity>
+
+        <activity
+            android:name=".bares"
+            android:label="@string/bares" >
+        </activity>
+
+        <activity
+            android:name=".demografia"
+            android:label="@string/demografia" >
+        </activity>
+
+        <activity
+            android:name=".hoteles"
+            android:label="@string/hoteles" >
+        </activity>
+
+        <activity
+            android:name=".restaurantes"
+            android:label="@string/restaurantes" >
+        </activity>
+
+        <activity
+            android:name=".turisticos"
+            android:label="@string/turisticos" >
+        </activity>
+
+    </application>
+
+</manifest>
